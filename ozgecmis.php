@@ -1,0 +1,129 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8" >
+            <link rel="stylesheet" href="css/bootstrap.min.css"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet"/>
+            <link rel="stylesheet" href="style.css">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+            <title>Hakkımda</title>
+        </head>
+        <body>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top shadow-sm">
+                    <div class="container">
+                    <a class="navbar-brand text-danger fs-3 fw-bold bg-light rounded" href="#home">&nbsp Musa Sinan Alemdar &nbsp</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <center> 
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="index.php">Hakkımda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="#ozgecmıs">Özgeçmiş</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="ilgialanlarim.php">İlgi Alanlarım</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="sehirim.php">Şehirim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="takimim.php">Takımım</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" href="iletisim.php">İletişim</a>
+                  </li>
+                </ul>
+                    </center> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                    <form class="d-flex">
+                  <button onclick="window.location='./login.php'" type="button" class="btn btn-danger">Giriş Yap</button>
+                </form>
+            </header>
+            <main>
+      <section>
+        <div class="container-lg " style="margin-top: 5rem;">
+          <div class="row min-vh-100 w-75 pb-5 " style="margin: auto;">
+            <div class="col-lg-12 col-md-12 col-12" >
+              <div class="card">
+                <img src="23.jpeg" width="20%" style="margin: auto; padding-top: 1rem; padding-bottom: 1rem;">
+                <h3 class="text-center">Musa Sinan Alemdar</h3>
+                <hr>
+                <div class="card-body text-center">
+                  <h6>Doğum Tarihi: 15.12.2002</h6>
+                  <h6>Sakarya Üniversitesi Bilgisayar Mühendisliği 1.Sınıf</h6>
+                  <h6>Sakarya ,Türkiye</h6>
+                  <h6>Mail: m.sinanalemdar@gmail.com</h6>
+                  <h6>Tel No : 05531397769</h6>
+                  <h6>Adres: Sakarya Erenler Yavuz selim cad. no.52</h6>
+
+                  <hr>
+                  <h3><i class="fas fa-asteriks mr-2"></i>Yetenekler</h3>
+                  <h6>C++</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="height: 100%; width: 50%;"> %50 </div>
+                  </div>
+                  <h6>C#</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="height: 100%; width: 30%;"> %30 </div>
+                  </div>
+                  <h6>Html</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="height: 100%; width: 80%;"> %80 </div>
+                  </div>
+                  <h6>Css</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="height: 100%; width: 70%;"> %70 </div>
+                  </div>
+                  <h6>Javascript</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-danger" style="height: 100%; width: 60%;"> %60 </div>
+                  </div>
+                  <hr>
+                  <h3><i class="fas fa-asteriks mr-2"></i>Diller</h3>
+                  <h6>İngilizce</h6>
+                  <div class="progress rounded-pill my-3" style="height: 20px;">
+                    <div class="progress-bar bg-primary" style="height: 100%; width: 90%;"> %90 </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Eğitim bilgileri</h4>
+                  <hr>
+                  <h6 class="fw-bold">Lisans</h6>
+                  <p>2021 - ? </p>
+                  <p>Sakarya Üniversitesi</p>
+                  <p>Bilgisayar Mühendisliği</p>
+                  <p>1.Sınıf</p>
+                  <hr>
+                  <h6 class="fw-bold">Lise</h6>
+                  <p>2016-2020</p>
+                  <p>Figen Sakallıoğlu Anadolu Lisesi</p>
+                  <hr>
+                  <h6 class="fw-bold">Ortaokul</h6>
+                  <p>Bayburt Ortaokulu </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <div class="text-center p-3 bg-danger">
+        © 2022:
+        <a class="text-white" href="index.php">Musa Sinan Alemdar</a>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
